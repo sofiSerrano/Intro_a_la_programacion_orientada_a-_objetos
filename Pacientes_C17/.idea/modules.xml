@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/c19_PatronesDiseño.iml" filepath="$PROJECT_DIR$/.idea/c19_PatronesDiseño.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DH-ExcepcionesPaciente.iml" filepath="$PROJECT_DIR$/DH-ExcepcionesPaciente.iml" />
     </modules>
   </component>
 </project>
