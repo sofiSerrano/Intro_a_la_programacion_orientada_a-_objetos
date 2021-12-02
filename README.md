@@ -1,2 +1,2 @@
-# Introducción a la programción orientada a objetos 
+# Introducción a la programción orientada a objetos (POO)
 Durante la cursada de esta materia se adquirieron las bases y desarrollar la capacidad de modelar y programar desde la perspectiva del paradigma orientado a objetos. También se permitió comprender y analizar los diferentes desafíos que enfrentan los actuales equipos de trabajo al momento de desarrollar.  Los conceptos se aplicarán en el lenguaje de programación Java, uno de los más utilizados para desarrollos en empresas IT hoy en día y el conocimiento de patrones de diseño que resultan fundamentales al momento de diseñar un software.
