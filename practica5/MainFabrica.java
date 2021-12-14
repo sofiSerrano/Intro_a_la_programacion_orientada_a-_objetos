@@ -1,16 +1,21 @@
 package ccepeda.practica5;
 
-public class Main {
+public class MainFabrica {
 
     public static void main(String[] args) {
-
         Intitucion intitucion = new Intitucion();
 
-        Curso frontEnd = new Curso("FrontEnd", "Curso frontend", 16, 2, 1000);
+        Curso frontEnd = (Curso) Fabrica.getInstance().crearOferta("Curso", "FrontEnd", "Curso frontend");
+        frontEnd.setHorasMes(16);
+        frontEnd.setMeses(2);
+        frontEnd.setValorHora(1000);
         intitucion.agregarOferta(frontEnd);
-        Curso frontend = new Curso("hpoam");
 
-        Curso backend = new Curso("Backend", "Curso backend", 20, 2, 900);
+
+        Curso backend = (Curso) Fabrica.getInstance().crearOferta("Curso", "Backend", "Curso backend");
+        backend.setHorasMes(20);
+        backend.setMeses(2);
+        backend.setValorHora(900);
         intitucion.agregarOferta(backend);
 
         Programa programa = new Programa("FullStack", "programa completo de deasrrollo", 20);
@@ -38,6 +43,6 @@ public class Main {
 
         System.out.println("..........");
         intitucion.generarInforme();
-
     }
+
 }

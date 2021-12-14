@@ -8,7 +8,6 @@ public class Main {
 
         Curso frontEnd = new Curso("FrontEnd", "Curso frontend", 16, 2, 1000);
         intitucion.agregarOferta(frontEnd);
-        Curso frontend = new Curso("hpoam");
 
         Curso backend = new Curso("Backend", "Curso backend", 20, 2, 900);
         intitucion.agregarOferta(backend);
